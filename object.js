@@ -4,23 +4,23 @@
  * name : sunglass
  * price: 120
  * color: white
- * 
- * 
- * 
-*/
+ *
+ *
+ *
+ */
 
 const sunglass = {
-    color: 'white',
-    price: 120,
-    brand: 'Ray Ban'
-}
+  color: "white",
+  price: 120,
+  brand: "Ray Ban",
+};
 
 const phone = {
-    brand: 'Apple',
-    version: 17,
-    isThreeCamera: false,
-    secondHand: false,
-    appsInstalled: ['fb', 'chatgpt', 'neptune']
-}
+  brand: "Apple",
+  version: 17,
+  isThreeCamera: false,
+  secondHand: false,
+  appsInstalled: ["fb", "chatgpt", "neptune"],
+};
 
-console.log(phone)
+console.log(phone);

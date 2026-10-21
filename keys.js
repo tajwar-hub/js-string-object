@@ -1,19 +1,19 @@
 const person = {
-    name: 'tobarak Ali',
-    profession: 'student',
-    age: 21,
-    isSingle: true
-}
+  name: "tobarak Ali",
+  profession: "student",
+  age: 21,
+  isSingle: true,
+};
 
 delete person.isSingle;
-delete person['profession']
+delete person["profession"];
 
-console.log(person)
+console.log(person);
 
 const keys = Object.keys(person);
-console.log(keys)
+console.log(keys);
 
 const values = Object.values(person);
 console.log(values);
 
-console.log(Object.entries(person))
+console.log(Object.entries(person));

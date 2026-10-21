@@ -1,8 +1,7 @@
-const cup = 'World        Cup';
+const cup = "World        Cup";
 const tea = "Tea cup";
-const location = 'Dhaka';
+const location = "Dhaka";
 // const vehicle = new String('car');
-
 
 const numbers = [4, 54, 6, 78, 11];
 // console.log(numbers.length);
@@ -12,5 +11,5 @@ const numbers = [4, 54, 6, 78, 11];
 // console.log(location[0])
 numbers[0] = 99;
 console.log(numbers);
-location[0] = 'F';
+location[0] = "F";
 console.log(location);

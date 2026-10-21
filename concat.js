@@ -1,4 +1,6 @@
-const firstName = 'Silver';
-const lastName = 'Gold'
+const firstName = "Silver";
+const lastName = "Gold";
 
-console.log(firstName.concat(' ', lastName, ' Chowdhury'))
+console.log(
+  firstName.concat(" ", lastName, " Chowdhury", " Hii ", "Hello ", "Yooo"),
+);
